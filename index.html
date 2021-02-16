@@ -2,75 +2,141 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="Web Tasarım, Front-End, Game Developer, Mobile Game, Oyun Tasarımı, Yazılımcı, Yusuf Çelmez'in Kişisel Web Sitesi"/>
-	<meta name="description" content="Yusuf Çelmez, Web Ön Yüz ve Oyun Geliştiricisi, Yusuf Çelmez Game and Front-End Developer"/>
 
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
-	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" type="text/css" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" />
 
     <link rel="icon" type="img/xicon" href="y.png">
 
-    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="stil.css">
 
-    <title> YUSUF ÇELMEZ </title>
+    <title> Yusuf Çelmez </title>
 </head>
 <body>
-    <section class="phone">
-        <div class="content-title">
-            <a href="#" title="YUSUF ÇELMEZ">
-                YUSUF ÇELMEZ
+    <nav>
+        <div class="Logo">
+            <a href="#" title="Yusuf Çelmez">
+                <img src="#" />
             </a>
         </div>
 
-        <div class="unvan">
+        <div class="Menu" id="Menu">
+            <ul>
+                <li>
+                    <a id="home-1" onclick="closeMenu()" href="#home">HOME</a>
+                </li>
+                
+                <li>
+                    <a id="about-1" onclick="closeMenu()" href="#about">ABOUT</a>
+                </li>
+                
+                <li>
+                    <a id="contact-1" onclick="closeMenu()" href="#contact">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="openMenu" id="openMenu" onclick="openMenu()">
+            <div class="line-1"></div>
+            <div class="line-2"></div>
+            <div class="line-3"></div>
+        </div>
+    </nav>
+
+    <section class="content-1" title="home">
+        <h1 style="height: 200px;"></h1>
+        <div class="content-1-title">
             <h1>
-                GAME & FRONT-END DEVELOPER
+                Hi my name is Yusuf Çelmez
             </h1>
-        </div>
 
-        <div class="social-media">
-            <a href="mailto:info@celmez.live" title="Yusuf Çelmez Mail">
-                <i class="far fa-envelope">
-                    <span>info@celmez.live</span>
-                </i>
-            </a>
-
-            <a href="https://www.twitter.com/yusufcelmez" title="Yusuf Çelmez Twitter" target= "_blank">
-                <i class="fab fa-twitter-square">
-                    <span>yusufcelmez</span>
-                </i>
-            </a>
-
-            <a href="https://www.instagram.com/yusufcelmez" title="Yusuf Çelmez Instagram" target= "_blank">
-                <i class="fab fa-instagram">
-                    <span> yusufcelmez </span>
-                </i>
-            </a>
-
-            <a href="https://tr.linkedin.com/in/yusufcelmez" title="Yusuf Çelmez Linkedin" target= "_blank">
-                <i class="fab fa-linkedin">
-                    <span>
-                        yusufcelmez
-                    </span>
-                </i>
-            </a>
-        </div>
-
-        <div class="foot-text">
-            <p class="hd">
-            </p>
-            
-            <p style="margin-top: 2%;">
-                ©2021&nbsp;YUSUF ÇELMEZ
+            <p>
+                <span class="parag-1">Welcome to my personal portfolio site</span>
+                <span class="parag-2">On this site, you will learn some information</span>
+                <span class="parag-3">about my life and the services you can get.</span>
+                <span class="parag-4">Why are you still waiting?</span>
+                <span class="parag-5">You can start browsing my website.</span>
             </p>
         </div>
     </section>
 
+    <section class="content-2" id="about">
+        <h1 style="height: 220px;"></h1>
+        <div class="content-2-title">
+            <h1>
+                Who am i?
+            </h1>
+
+            <p>
+                <span class="parag-6">I was born in Bursa, Turkey.</span>
+                <span class="parag-7">I'm 19 yo.</span>
+                <span class="parag-8">I'm studying at Tokat Gaziosmanpasa University</span>
+                <span class="parag-9">I also mobile game developer and front-end website developer</span>
+                <span class="parag-10">I've been writing code for about 4 years</span>
+                <span class="parag-11">If you wanna personal portfolio site, I can do it</span>
+                <span class="parag-12">If you want to have a website, you can contact me from the contact section.</span>
+            </p>
+        </div>
+    </section>
+
+    <section class="content-3" id="contact">
+        <h1 style="height: 300px;"></h1>
+        <div class="content-3-title">
+            <h1>
+                CONTACT WITH ME
+            </h1>
+        </div>
+
+        <div class="mail">
+            <a>
+                <span class="contact-with-me">TO SEND ME MAIL</span>
+            </a>
+
+        <a href="#" title="Mail" style="margin-top: 1%;"><i class="far fa-envelope"></i></a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <h1 style="height: 15px;"></h1>
+        <div class="foot-text">
+            <p>
+                ©2021 YUSUF CELMEZ
+            </p>
+        </div>
+
+        <div class="foot-social">
+            <div class="tweet">
+                <a href="#" title="Twitter" target="_blank">
+                    <i class="fa fa-twitter"></i>
+                </a>
+            </div>
+
+            <div class="instag">
+                <a href="#" title="Instagram" target="_blank">
+                    <i class="fa fa-instagram"></i>
+                </a>
+            </div>
+
+            <div class="linkd">
+                <a href="#" title="Linkedin" target="_blank">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <a id="page-top" onclick="closeMenuTop()" class="page-top" href="javascript:void(0);">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
     <!--Section of JavaScript-->
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.js"></script>
-    <script type="text/javascript" src="js/slider.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="page-top.js"></script>
 </body>
 </html>
